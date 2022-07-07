@@ -58,7 +58,7 @@ class Target : Element() {
     private val decimalFormat = DecimalFormat("##0.00", DecimalFormatSymbols(Locale.ENGLISH))
     private val decimalFormat2 = DecimalFormat("##0.0", DecimalFormatSymbols(Locale.ENGLISH))
     private val decimalFormat3 = DecimalFormat("0.#", DecimalFormatSymbols(Locale.ENGLISH))
-    private val styleValue = ListValue("Style", arrayOf(Flux", "Novoline", "Exhibition", "Chill"), "Chill")
+    private val styleValue = ListValue("Style", arrayOf("Flux", "Novoline", "Exhibition", "Chill"), "Chill")
     private val fadeSpeed = FloatValue("FadeSpeed", 2F, 1F, 9F)
     private val chillFontSpeed = FloatValue("Chill-FontSpeed", 0.5F, 0.01F, 1F, { styleValue.get().equals("chill", true) })
     private val chillHealthBarValue = BoolValue("Chill-Healthbar", true, { styleValue.get().equals("chill", true) })
