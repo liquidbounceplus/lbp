@@ -1,4 +1,4 @@
-# LiquidBounce+
+# LiquidBounce+ 
 A free mixin-based injection hacked-client for Minecraft using Minecraft Forge.
 
 ## LiquidBounce contact infos.
